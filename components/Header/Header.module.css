@@ -1,0 +1,39 @@
+
+/* ヘッダー */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5e5ff;
+    
+  }
+  .header h1 {
+    margin: 10px 30px;
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s;
+  }
+  .header h1:hover{
+    border-bottom: 1px solid;
+  }
+  
+  .headerItemConten{
+    display: flex;
+    margin: 0px 20px;
+  }
+  .headerItem{
+    margin: 10px;
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s;
+  }
+  .headerItem:hover{
+    border-bottom: 1px solid;
+  }
+
+
+  @media screen and (max-width:768px){
+    .header h1{
+      font-size: 1.5rem;
+      margin: 5px 15px;
+    }
+  }
+  

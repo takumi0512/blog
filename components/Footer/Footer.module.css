@@ -1,0 +1,29 @@
+
+/* フッター */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e5e5ff;
+    
+  }
+  .ItemLeft {
+    margin: 10px 30px;
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s;
+  }
+  .ItemLeft:hover{
+    border-bottom: 1px solid;
+  }
+  
+  .headerItemConten{
+    margin: 0px 20px;
+  }
+  .headerItem{
+    font-size: 0.7em;
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s;
+  }
+  .headerItem:hover{
+    border-bottom: 1px solid;
+  }

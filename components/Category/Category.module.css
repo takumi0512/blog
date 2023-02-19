@@ -1,0 +1,34 @@
+
+
+
+/* カテゴリーボックス */
+.categoryBox{
+    padding: 20px;
+    background-color: #e5ffe5;
+  }
+  .categoryTitle{
+    text-align: center;
+  }
+  .categoryList{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .categoryListItem{
+    display: flex; 
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s;
+  }
+  .categoryListItem:hover{
+    border-bottom:  1px solid ;
+  }
+  .Item{
+    padding: 0px 10px 0px 0px;
+  }
+
+
+  @media screen and (max-width:768px){
+   .categoryList{
+    margin: 10px;
+   }
+  }

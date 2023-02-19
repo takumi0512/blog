@@ -1,0 +1,23 @@
+
+/* プロダクトページ */
+
+.title {
+  margin: 5px 30px
+}
+
+.device{
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: #e5ffe5;
+  }
+  
+  
+  .productConten{
+    display: flex;
+    justify-content: center;
+  }
+  .productItem{
+    margin: 30px;
+    text-align: center;
+  }
