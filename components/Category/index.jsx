@@ -34,7 +34,7 @@ const Category = (props) => {
 
             <div className={styles.categoryList}>
               {categoryList.map((category) => (
-                <Link href={`../blog?category=${category}`}>
+                <Link key={category.name} href={`../blog?category=${category}`}>
                   <div key={category} className={styles.categoryListItem}>
                       <div className={styles.Item}>{category}</div>
                       <div className={styles.Item}>{categoryNumber[category]}</div>

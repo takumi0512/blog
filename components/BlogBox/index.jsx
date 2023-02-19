@@ -34,7 +34,7 @@ const BlogBox = (props) => {
                       </div>
                       <div className={styles.tag}>
                         {blogs.category.map((category) => (
-                          <div className={styles.tagItem}>
+                          <div key={category.name} className={styles.tagItem}>
                             {category.name}
                           </div>
                         ))}
